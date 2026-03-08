@@ -33,7 +33,7 @@ const translations: Record<string, Record<Language, string>> = {
   // Hero
   "hero.badge": { en: "🏆 10+ Years of Excellence", ar: "🏆 أكثر من 10 سنوات من التميز" },
   "hero.title1": { en: "Forging", ar: "نصنع" },
-  "hero.titleHighlight": { en: "Champions", ar: "الأبطال" },
+  "hero.titleHighlight": { en: "Champions", ar: "أبطال" },
   "hero.title2": { en: "Across Egypt", ar: "في جميع أنحاء مصر" },
   "hero.subtitle": { en: "World-class coaching in swimming, tennis & 6+ sports. Join 2,500+ students training across 8 branches.", ar: "تدريب عالمي المستوى في السباحة والتنس وأكثر من 6 رياضات. انضم لأكثر من 2,500 طالب يتدربون في 8 فروع." },
   "hero.exploreProgramsBtn": { en: "Explore Programs", ar: "استكشف البرامج" },
