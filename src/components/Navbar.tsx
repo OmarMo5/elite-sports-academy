@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Sun, Moon, Trophy, Languages } from "lucide-react";
+import { Menu, X, Sun, Moon, Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import logo from "@/assets/logo.jpg";
 
 const navKeys = [
   { key: "nav.home", href: "/" },
