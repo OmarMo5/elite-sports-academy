@@ -200,7 +200,7 @@ const translations: Record<string, Record<Language, string>> = {
   "footer.quickLinks": { en: "Quick Links", ar: "روابط سريعة" },
   "footer.ourSports": { en: "Our Sports", ar: "رياضاتنا" },
   "footer.contactUs": { en: "Contact Us", ar: "تواصل معنا" },
-  "footer.rights": { en: "© 2024 Champions Sports Academy. All rights reserved.", ar: "© 2024 أكاديمية الأبطال الرياضية. جميع الحقوق محفوظة." },
+  "footer.rights": { en: "© 2024 Spirit Sports Academy. All rights reserved.", ar: "© 2024 أكاديمية سبيريت الرياضية. جميع الحقوق محفوظة." },
   "footer.description": { en: "Egypt's premier sports academy. Forging champions since 2014 with world-class coaching and facilities.", ar: "أفضل أكاديمية رياضية في مصر. نصنع الأبطال منذ 2014 بتدريب ومرافق عالمية المستوى." },
 
   // Sports names
