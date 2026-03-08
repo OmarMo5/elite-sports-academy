@@ -99,7 +99,7 @@ const translations: Record<string, Record<Language, string>> = {
   "about.awardsTitle": { en: "Awards & Recognition", ar: "الجوائز والتقدير" },
   "about.awardsSubtitle": { en: "Recognized for excellence across the region", ar: "معترف بالتميز في جميع أنحاء المنطقة" },
   "about.pressTitle": { en: "Press & Testimonials", ar: "الصحافة والشهادات" },
-  "about.pressSubtitle": { en: "What people are saying about Champions Academy", ar: "ما يقوله الناس عن أكاديمية الأبطال" },
+  "about.pressSubtitle": { en: "What people are saying about Spirit Academy", ar: "ما يقوله الناس عن أكاديمية سبيريت" },
 
   // Programs
   "programs.heroTitle": { en: "Our", ar: "برامجنا" },
