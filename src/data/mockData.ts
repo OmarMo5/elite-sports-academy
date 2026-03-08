@@ -14,7 +14,7 @@ export const stats = [
 ];
 
 export const milestones = [
-  { year: 2014, title: "Founded", description: "Champions Academy established in Cairo with swimming & tennis programs." },
+  { year: 2014, title: "Founded", description: "Spirit Academy established in Cairo with swimming & tennis programs." },
   { year: 2016, title: "First National Title", description: "Our swimmers won 12 gold medals at the Egyptian National Championships." },
   { year: 2018, title: "Expansion", description: "Opened 3 new branches in Alexandria, Giza, and New Cairo." },
   { year: 2020, title: "Digital Transformation", description: "Launched virtual training & performance analytics platform." },
