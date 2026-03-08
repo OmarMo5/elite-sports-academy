@@ -195,13 +195,12 @@ const DashboardContent = ({ onLogout }: { onLogout: () => void }) => {
                     <h3 className="font-heading font-bold text-foreground mb-4">Progress Over Time</h3>
                     <div className="h-48">
                       <ResponsiveContainer width="100%" height="100%">
-                        <LineChart>
+                        <LineChart data={swimData}>
                           <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                          <XAxis dataKey="month" data={swimData} tick={{ fontSize: 11 }} stroke="hsl(var(--muted-foreground))" />
+                          <XAxis dataKey="month" tick={{ fontSize: 11 }} stroke="hsl(var(--muted-foreground))" />
                           <YAxis domain={[50, 100]} tick={{ fontSize: 11 }} stroke="hsl(var(--muted-foreground))" />
                           <Tooltip />
-                          <Line data={swimData} type="monotone" dataKey="score" stroke="hsl(213 100% 36%)" strokeWidth={2} dot={{ r: 4 }} name="Swimming" />
-                          <Line data={tennisData} type="monotone" dataKey="score" stroke="hsl(51 100% 50%)" strokeWidth={2} dot={{ r: 4 }} name="Tennis" />
+                          <Line type="monotone" dataKey="score" stroke="hsl(213 100% 36%)" strokeWidth={2} dot={{ r: 4 }} name="Swimming" />
                         </LineChart>
                       </ResponsiveContainer>
                     </div>
