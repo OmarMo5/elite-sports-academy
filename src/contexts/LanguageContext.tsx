@@ -205,11 +205,16 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Sports names
   "sport.swimming": { en: "Swimming", ar: "السباحة" },
-  "sport.tennis": { en: "Tennis", ar: "التنس" },
+  "sport.gymnastics": { en: "Gymnastics", ar: "الجمباز" },
   "sport.football": { en: "Football", ar: "كرة القدم" },
   "sport.basketball": { en: "Basketball", ar: "كرة السلة" },
-  "sport.gymnastics": { en: "Gymnastics", ar: "الجمباز" },
-  "sport.martialArts": { en: "Martial Arts", ar: "الفنون القتالية" },
+  "sport.kungFu": { en: "Kung Fu", ar: "كونغ فو" },
+  "sport.patinage": { en: "Patinage", ar: "التزلج" },
+  "sport.art": { en: "Art", ar: "الفنون" },
+  "sport.kickboxing": { en: "Kickboxing", ar: "الكيك بوكسينج" },
+  "sport.parkour": { en: "Parkour", ar: "الباركور" },
+  "sport.karate": { en: "Karate", ar: "الكاراتيه" },
+  "sport.fitness": { en: "Fitness", ar: "اللياقة البدنية" },
 
   // Common
   "common.est": { en: "Est.", ar: "تأسس" },
