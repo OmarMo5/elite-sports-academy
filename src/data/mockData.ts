@@ -170,7 +170,7 @@ export const pastEvents = [
     date: "October 22, 2025",
     location: "Heliopolis Tennis Club",
     sport: "Tennis",
-    description: "National youth tournament — Champions Academy placed 1st overall.",
+    description: "National youth tournament — Spirit Academy placed 1st overall.",
     type: "past" as const,
     participants: 48,
     results: { gold: 8, silver: 5, bronze: 3 },
