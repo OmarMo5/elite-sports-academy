@@ -1,5 +1,5 @@
 export const academyInfo = {
-  name: "Champions Sports Academy",
+  name: "Spirit Sports Academy",
   tagline: "Forging Champions Since 2014",
   description: "Egypt's premier multi-sport training academy with world-class coaches, state-of-the-art facilities, and a proven track record of developing elite athletes across swimming, tennis, and more.",
   yearFounded: 2014,
