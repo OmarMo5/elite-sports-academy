@@ -35,7 +35,7 @@ const translations: Record<string, Record<Language, string>> = {
   "hero.title1": { en: "Forging", ar: "نصنع" },
   "hero.titleHighlight": { en: "Champions", ar: "أبطال" },
   "hero.title2": { en: "Across Egypt", ar: "في جميع أنحاء مصر" },
-  "hero.subtitle": { en: "World-class coaching in swimming, tennis & 6+ sports. Join 2,500+ students training across 8 branches.", ar: "تدريب عالمي المستوى في السباحة والتنس وأكثر من 6 رياضات. انضم لأكثر من 2,500 طالب يتدربون في 8 فروع." },
+  "hero.subtitle": { en: "World-class coaching in swimming, gymnastics, football & 11 sports. Join 2,500+ students training across 8 branches.", ar: "تدريب عالمي المستوى في السباحة والجمباز وكرة القدم و11 رياضة. انضم لأكثر من 2,500 طالب يتدربون في 8 فروع." },
   "hero.exploreProgramsBtn": { en: "Explore Programs", ar: "استكشف البرامج" },
 
   // Stats
@@ -104,7 +104,7 @@ const translations: Record<string, Record<Language, string>> = {
   // Programs
   "programs.heroTitle": { en: "Our", ar: "برامجنا" },
   "programs.heroHighlight": { en: "Programs", ar: "الرياضية" },
-  "programs.heroSubtitle": { en: "World-class training across 6 sports disciplines, designed for athletes of every age and skill level.", ar: "تدريب عالمي المستوى عبر 6 تخصصات رياضية، مصمم للرياضيين من جميع الأعمار ومستويات المهارة." },
+  "programs.heroSubtitle": { en: "World-class training across 11 sports disciplines, designed for athletes of every age and skill level.", ar: "تدريب عالمي المستوى عبر 11 تخصصاً رياضياً، مصمم للرياضيين من جميع الأعمار ومستويات المهارة." },
   "programs.all": { en: "All", ar: "الكل" },
   "programs.beginner": { en: "Beginner", ar: "مبتدئ" },
   "programs.intermediate": { en: "Intermediate", ar: "متوسط" },
@@ -205,11 +205,16 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Sports names
   "sport.swimming": { en: "Swimming", ar: "السباحة" },
-  "sport.tennis": { en: "Tennis", ar: "التنس" },
+  "sport.gymnastics": { en: "Gymnastics", ar: "الجمباز" },
   "sport.football": { en: "Football", ar: "كرة القدم" },
   "sport.basketball": { en: "Basketball", ar: "كرة السلة" },
-  "sport.gymnastics": { en: "Gymnastics", ar: "الجمباز" },
-  "sport.martialArts": { en: "Martial Arts", ar: "الفنون القتالية" },
+  "sport.kungFu": { en: "Kung Fu", ar: "كونغ فو" },
+  "sport.patinage": { en: "Patinage", ar: "التزلج" },
+  "sport.art": { en: "Art", ar: "الفنون" },
+  "sport.kickboxing": { en: "Kickboxing", ar: "الكيك بوكسينج" },
+  "sport.parkour": { en: "Parkour", ar: "الباركور" },
+  "sport.karate": { en: "Karate", ar: "الكاراتيه" },
+  "sport.fitness": { en: "Fitness", ar: "اللياقة البدنية" },
 
   // Common
   "common.est": { en: "Est.", ar: "تأسس" },

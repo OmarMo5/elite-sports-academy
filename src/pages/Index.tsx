@@ -13,8 +13,8 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-foreground" dir={isRTL ? "rtl" : "ltr"}>
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {["🏊", "🎾", "⚽", "🏀", "🤸", "🥋"].map((icon, i) => (
-          <span key={i} className={`absolute text-4xl md:text-6xl opacity-10 ${i % 2 === 0 ? "animate-float" : "animate-float-reverse"}`} style={{ top: `${15 + i * 12}%`, left: `${5 + i * 15}%`, animationDelay: `${i * 0.8}s` }}>{icon}</span>
+        {["🏊", "🤸", "⚽", "🏀", "🥋", "⛸️", "🎨", "🥊", "🏃", "💪"].map((icon, i) => (
+          <span key={i} className={`absolute text-4xl md:text-6xl opacity-10 ${i % 2 === 0 ? "animate-float" : "animate-float-reverse"}`} style={{ top: `${10 + i * 8}%`, left: `${5 + i * 9}%`, animationDelay: `${i * 0.8}s` }}>{icon}</span>
         ))}
         {Array.from({ length: 20 }).map((_, i) => (
           <div key={`p-${i}`} className="absolute w-1 h-1 bg-gold/30 rounded-full" style={{ left: `${Math.random() * 100}%`, top: `${Math.random() * 100}%`, animation: `float-slow ${4 + Math.random() * 4}s ease-in-out infinite`, animationDelay: `${Math.random() * 3}s` }} />
@@ -236,7 +236,7 @@ const CTASection = () => {
   return (
     <section className="py-20 bg-gradient-to-r from-primary to-primary/80 relative overflow-hidden">
       <div className="absolute inset-0 opacity-10">
-        {["🏊", "🎾", "⚽"].map((icon, i) => (
+        {["🏊", "⚽", "🥊", "🤸"].map((icon, i) => (
           <span key={i} className="absolute text-8xl animate-float-slow" style={{ top: `${20 + i * 25}%`, right: `${5 + i * 10}%`, animationDelay: `${i}s` }}>{icon}</span>
         ))}
       </div>
