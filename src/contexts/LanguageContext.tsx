@@ -104,7 +104,7 @@ const translations: Record<string, Record<Language, string>> = {
   // Programs
   "programs.heroTitle": { en: "Our", ar: "برامجنا" },
   "programs.heroHighlight": { en: "Programs", ar: "الرياضية" },
-  "programs.heroSubtitle": { en: "World-class training across 6 sports disciplines, designed for athletes of every age and skill level.", ar: "تدريب عالمي المستوى عبر 6 تخصصات رياضية، مصمم للرياضيين من جميع الأعمار ومستويات المهارة." },
+  "programs.heroSubtitle": { en: "World-class training across 11 sports disciplines, designed for athletes of every age and skill level.", ar: "تدريب عالمي المستوى عبر 11 تخصصاً رياضياً، مصمم للرياضيين من جميع الأعمار ومستويات المهارة." },
   "programs.all": { en: "All", ar: "الكل" },
   "programs.beginner": { en: "Beginner", ar: "مبتدئ" },
   "programs.intermediate": { en: "Intermediate", ar: "متوسط" },
