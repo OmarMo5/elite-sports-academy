@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Trophy, Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   const { t, lang, isRTL } = useLanguage();
