@@ -241,7 +241,7 @@ const translations: Record<string, Record<Language, string>> = {
   "award.5.org": { en: "Arab Sports Council", ar: "مجلس الرياضة العربي" },
 
   // Testimonials Arabic
-  "testimonial.1.text": { en: "My daughter's confidence has skyrocketed since joining Champions. The coaches are exceptional and truly care about each child's development.", ar: "ارتفعت ثقة ابنتي بشكل كبير منذ انضمامها للأبطال. المدربون استثنائيون ويهتمون حقاً بتطور كل طفل." },
+  "testimonial.1.text": { en: "My daughter's confidence has skyrocketed since joining Spirit. The coaches are exceptional and truly care about each child's development.", ar: "ارتفعت ثقة ابنتي بشكل كبير منذ انضمامها لسبيريت. المدربون استثنائيون ويهتمون حقاً بتطور كل طفل." },
   "testimonial.2.text": { en: "I've been training here for 4 years and won my first national medal last year. The facilities and coaching are world-class.", ar: "أتدرب هنا منذ 4 سنوات وفزت بأول ميدالية وطنية العام الماضي. المرافق والتدريب على مستوى عالمي." },
   "testimonial.3.text": { en: "The progress tracking dashboard helps me stay connected to my children's development. Best academy in Egypt, no doubt.", ar: "لوحة تتبع التقدم تساعدني على البقاء على اتصال بتطور أطفالي. أفضل أكاديمية في مصر، بلا شك." },
   "testimonial.4.text": { en: "Both my sons train in swimming and football. The multi-sport approach has made them well-rounded athletes.", ar: "كلا ابنيّ يتدربان في السباحة وكرة القدم. النهج متعدد الرياضات جعلهم رياضيين متكاملين." },

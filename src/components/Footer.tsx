@@ -93,8 +93,8 @@ const Footer = () => {
                 <span dir="ltr">+20 2 2345 6789</span>
               </div>
               <div className={`flex items-center gap-2 ${isRTL ? "flex-row-reverse" : ""}`}>
-                <Mail className="w-4 h-4 shrink-0 text-gold" />
-                <span>info@championsacademy.eg</span>
+              <Mail className="w-4 h-4 shrink-0 text-gold" />
+                <span>info@spiritsportsacademy.eg</span>
               </div>
             </div>
           </div>
