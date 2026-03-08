@@ -104,10 +104,10 @@ const Navbar = () => {
             <Link
               key={link.href}
               to={link.href}
-              className={`block px-4 py-3 rounded-xl text-sm font-medium transition-all ${
+              className={`block px-4 py-3 rounded-xl text-sm font-heading font-bold transition-all duration-300 ${
                 location.pathname === link.href
-                  ? "text-primary bg-primary/10"
-                  : "text-foreground/70 hover:bg-muted"
+                  ? "bg-gold text-primary shadow-md"
+                  : "text-foreground hover:bg-primary hover:text-primary-foreground"
               }`}
             >
               {link.label}
