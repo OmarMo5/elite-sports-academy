@@ -127,7 +127,7 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Membership
   "membership.heroTitle1": { en: "Join the", ar: "انضم إلى عائلة" },
-  "membership.heroHighlight": { en: "Champions", ar: "الأبطال" },
+  "membership.heroHighlight": { en: "Spirit", ar: "سبيريت" },
   "membership.heroTitle2": { en: "Family", ar: "" },
   "membership.heroSubtitle": { en: "Choose the plan that fits your champion's journey. Flexible memberships for every level.", ar: "اختر الخطة التي تناسب رحلة بطلك. عضويات مرنة لكل مستوى." },
   "membership.mostPopular": { en: "⭐ Most Popular", ar: "⭐ الأكثر شعبية" },
