@@ -236,7 +236,7 @@ const CTASection = () => {
   return (
     <section className="py-20 bg-gradient-to-r from-primary to-primary/80 relative overflow-hidden">
       <div className="absolute inset-0 opacity-10">
-        {["🏊", "🎾", "⚽"].map((icon, i) => (
+        {["🏊", "⚽", "🥊", "🤸"].map((icon, i) => (
           <span key={i} className="absolute text-8xl animate-float-slow" style={{ top: `${20 + i * 25}%`, right: `${5 + i * 10}%`, animationDelay: `${i}s` }}>{icon}</span>
         ))}
       </div>

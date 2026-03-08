@@ -13,8 +13,8 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-foreground">
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {["🏊", "🎾", "⚽", "🏀", "🤸", "🥋"].map((icon, i) => (
-          <span key={i} className={`absolute text-4xl md:text-6xl opacity-10 ${i % 2 === 0 ? "animate-float" : "animate-float-reverse"}`} style={{ top: `${15 + i * 12}%`, left: `${5 + i * 15}%`, animationDelay: `${i * 0.5}s` }}>{icon}</span>
+        {["🏊", "🤸", "⚽", "🏀", "🥋", "⛸️", "🎨", "🥊", "🏃", "💪"].map((icon, i) => (
+          <span key={i} className={`absolute text-4xl md:text-6xl opacity-10 ${i % 2 === 0 ? "animate-float" : "animate-float-reverse"}`} style={{ top: `${10 + i * 8}%`, left: `${5 + i * 9}%`, animationDelay: `${i * 0.5}s` }}>{icon}</span>
         ))}
       </div>
       <div className="container mx-auto px-4 text-center relative z-10 pt-24 pb-16">
