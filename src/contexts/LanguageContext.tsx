@@ -216,7 +216,7 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Milestones Arabic
   "milestone.2014.title": { en: "Founded", ar: "التأسيس" },
-  "milestone.2014.desc": { en: "Champions Academy established in Cairo with swimming & tennis programs.", ar: "تأسيس أكاديمية الأبطال في القاهرة مع برامج السباحة والتنس." },
+  "milestone.2014.desc": { en: "Spirit Academy established in Cairo with swimming & tennis programs.", ar: "تأسيس أكاديمية سبيريت في القاهرة مع برامج السباحة والتنس." },
   "milestone.2016.title": { en: "First National Title", ar: "أول لقب وطني" },
   "milestone.2016.desc": { en: "Our swimmers won 12 gold medals at the Egyptian National Championships.", ar: "فاز سباحونا بـ 12 ميدالية ذهبية في البطولة الوطنية المصرية." },
   "milestone.2018.title": { en: "Expansion", ar: "التوسع" },
