@@ -1,5 +1,5 @@
 export const academyInfo = {
-  name: "Champions Sports Academy",
+  name: "Spirit Sports Academy",
   tagline: "Forging Champions Since 2014",
   description: "Egypt's premier multi-sport training academy with world-class coaches, state-of-the-art facilities, and a proven track record of developing elite athletes across swimming, tennis, and more.",
   yearFounded: 2014,
@@ -14,7 +14,7 @@ export const stats = [
 ];
 
 export const milestones = [
-  { year: 2014, title: "Founded", description: "Champions Academy established in Cairo with swimming & tennis programs." },
+  { year: 2014, title: "Founded", description: "Spirit Academy established in Cairo with swimming & tennis programs." },
   { year: 2016, title: "First National Title", description: "Our swimmers won 12 gold medals at the Egyptian National Championships." },
   { year: 2018, title: "Expansion", description: "Opened 3 new branches in Alexandria, Giza, and New Cairo." },
   { year: 2020, title: "Digital Transformation", description: "Launched virtual training & performance analytics platform." },
@@ -170,7 +170,7 @@ export const pastEvents = [
     date: "October 22, 2025",
     location: "Heliopolis Tennis Club",
     sport: "Tennis",
-    description: "National youth tournament — Champions Academy placed 1st overall.",
+    description: "National youth tournament — Spirit Academy placed 1st overall.",
     type: "past" as const,
     participants: 48,
     results: { gold: 8, silver: 5, bronze: 3 },

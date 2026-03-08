@@ -33,7 +33,7 @@ const translations: Record<string, Record<Language, string>> = {
   // Hero
   "hero.badge": { en: "🏆 10+ Years of Excellence", ar: "🏆 أكثر من 10 سنوات من التميز" },
   "hero.title1": { en: "Forging", ar: "نصنع" },
-  "hero.titleHighlight": { en: "Champions", ar: "الأبطال" },
+  "hero.titleHighlight": { en: "Champions", ar: "أبطال" },
   "hero.title2": { en: "Across Egypt", ar: "في جميع أنحاء مصر" },
   "hero.subtitle": { en: "World-class coaching in swimming, tennis & 6+ sports. Join 2,500+ students training across 8 branches.", ar: "تدريب عالمي المستوى في السباحة والتنس وأكثر من 6 رياضات. انضم لأكثر من 2,500 طالب يتدربون في 8 فروع." },
   "hero.exploreProgramsBtn": { en: "Explore Programs", ar: "استكشف البرامج" },
@@ -83,7 +83,7 @@ const translations: Record<string, Record<Language, string>> = {
   "about.heroSubtitle": { en: "From a single swimming pool in Cairo to 8 branches across Egypt — discover the journey that built Egypt's premier sports academy.", ar: "من حمام سباحة واحد في القاهرة إلى 8 فروع في جميع أنحاء مصر — اكتشف الرحلة التي بنت أفضل أكاديمية رياضية في مصر." },
   "about.storyTitle1": { en: "Where It All", ar: "حيث بدأ" },
   "about.storyHighlight": { en: "Began", ar: "كل شيء" },
-  "about.storyP1": { en: "Champions Sports Academy was founded in 2014 by a group of passionate athletes and educators who shared a vision: to create a world-class sports training environment right here in Egypt.", ar: "تأسست أكاديمية الأبطال الرياضية في عام 2014 من قبل مجموعة من الرياضيين والمعلمين الشغوفين الذين شاركوا رؤية واحدة: إنشاء بيئة تدريب رياضي عالمية المستوى هنا في مصر." },
+  "about.storyP1": { en: "Spirit Sports Academy was founded in 2014 by a group of passionate athletes and educators who shared a vision: to create a world-class sports training environment right here in Egypt.", ar: "تأسست أكاديمية سبيريت الرياضية في عام 2014 من قبل مجموعة من الرياضيين والمعلمين الشغوفين الذين شاركوا رؤية واحدة: إنشاء بيئة تدريب رياضي عالمية المستوى هنا في مصر." },
   "about.storyP2": { en: "What started as a small swimming and tennis program in Maadi, Cairo, has grown into Egypt's most comprehensive multi-sport academy, with 8 branches serving over 2,500 students.", ar: "ما بدأ كبرنامج صغير للسباحة والتنس في المعادي بالقاهرة، نما ليصبح أشمل أكاديمية متعددة الرياضات في مصر، مع 8 فروع تخدم أكثر من 2,500 طالب." },
   "about.storyP3": { en: "Our mission is simple — to develop well-rounded athletes who excel not just in their sport, but in character, discipline, and leadership. Every child who walks through our doors is a future champion.", ar: "مهمتنا بسيطة — تطوير رياضيين متكاملين يتفوقون ليس فقط في رياضتهم، ولكن في الشخصية والانضباط والقيادة. كل طفل يدخل أبوابنا هو بطل المستقبل." },
   "about.ourPrograms": { en: "Our Programs", ar: "برامجنا" },
@@ -99,7 +99,7 @@ const translations: Record<string, Record<Language, string>> = {
   "about.awardsTitle": { en: "Awards & Recognition", ar: "الجوائز والتقدير" },
   "about.awardsSubtitle": { en: "Recognized for excellence across the region", ar: "معترف بالتميز في جميع أنحاء المنطقة" },
   "about.pressTitle": { en: "Press & Testimonials", ar: "الصحافة والشهادات" },
-  "about.pressSubtitle": { en: "What people are saying about Champions Academy", ar: "ما يقوله الناس عن أكاديمية الأبطال" },
+  "about.pressSubtitle": { en: "What people are saying about Spirit Academy", ar: "ما يقوله الناس عن أكاديمية سبيريت" },
 
   // Programs
   "programs.heroTitle": { en: "Our", ar: "برامجنا" },
@@ -127,7 +127,7 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Membership
   "membership.heroTitle1": { en: "Join the", ar: "انضم إلى عائلة" },
-  "membership.heroHighlight": { en: "Champions", ar: "الأبطال" },
+  "membership.heroHighlight": { en: "Spirit", ar: "سبيريت" },
   "membership.heroTitle2": { en: "Family", ar: "" },
   "membership.heroSubtitle": { en: "Choose the plan that fits your champion's journey. Flexible memberships for every level.", ar: "اختر الخطة التي تناسب رحلة بطلك. عضويات مرنة لكل مستوى." },
   "membership.mostPopular": { en: "⭐ Most Popular", ar: "⭐ الأكثر شعبية" },
@@ -200,7 +200,7 @@ const translations: Record<string, Record<Language, string>> = {
   "footer.quickLinks": { en: "Quick Links", ar: "روابط سريعة" },
   "footer.ourSports": { en: "Our Sports", ar: "رياضاتنا" },
   "footer.contactUs": { en: "Contact Us", ar: "تواصل معنا" },
-  "footer.rights": { en: "© 2024 Champions Sports Academy. All rights reserved.", ar: "© 2024 أكاديمية الأبطال الرياضية. جميع الحقوق محفوظة." },
+  "footer.rights": { en: "© 2024 Spirit Sports Academy. All rights reserved.", ar: "© 2024 أكاديمية سبيريت الرياضية. جميع الحقوق محفوظة." },
   "footer.description": { en: "Egypt's premier sports academy. Forging champions since 2014 with world-class coaching and facilities.", ar: "أفضل أكاديمية رياضية في مصر. نصنع الأبطال منذ 2014 بتدريب ومرافق عالمية المستوى." },
 
   // Sports names
@@ -216,7 +216,7 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Milestones Arabic
   "milestone.2014.title": { en: "Founded", ar: "التأسيس" },
-  "milestone.2014.desc": { en: "Champions Academy established in Cairo with swimming & tennis programs.", ar: "تأسيس أكاديمية الأبطال في القاهرة مع برامج السباحة والتنس." },
+  "milestone.2014.desc": { en: "Spirit Academy established in Cairo with swimming & tennis programs.", ar: "تأسيس أكاديمية سبيريت في القاهرة مع برامج السباحة والتنس." },
   "milestone.2016.title": { en: "First National Title", ar: "أول لقب وطني" },
   "milestone.2016.desc": { en: "Our swimmers won 12 gold medals at the Egyptian National Championships.", ar: "فاز سباحونا بـ 12 ميدالية ذهبية في البطولة الوطنية المصرية." },
   "milestone.2018.title": { en: "Expansion", ar: "التوسع" },
@@ -241,7 +241,7 @@ const translations: Record<string, Record<Language, string>> = {
   "award.5.org": { en: "Arab Sports Council", ar: "مجلس الرياضة العربي" },
 
   // Testimonials Arabic
-  "testimonial.1.text": { en: "My daughter's confidence has skyrocketed since joining Champions. The coaches are exceptional and truly care about each child's development.", ar: "ارتفعت ثقة ابنتي بشكل كبير منذ انضمامها للأبطال. المدربون استثنائيون ويهتمون حقاً بتطور كل طفل." },
+  "testimonial.1.text": { en: "My daughter's confidence has skyrocketed since joining Spirit. The coaches are exceptional and truly care about each child's development.", ar: "ارتفعت ثقة ابنتي بشكل كبير منذ انضمامها لسبيريت. المدربون استثنائيون ويهتمون حقاً بتطور كل طفل." },
   "testimonial.2.text": { en: "I've been training here for 4 years and won my first national medal last year. The facilities and coaching are world-class.", ar: "أتدرب هنا منذ 4 سنوات وفزت بأول ميدالية وطنية العام الماضي. المرافق والتدريب على مستوى عالمي." },
   "testimonial.3.text": { en: "The progress tracking dashboard helps me stay connected to my children's development. Best academy in Egypt, no doubt.", ar: "لوحة تتبع التقدم تساعدني على البقاء على اتصال بتطور أطفالي. أفضل أكاديمية في مصر، بلا شك." },
   "testimonial.4.text": { en: "Both my sons train in swimming and football. The multi-sport approach has made them well-rounded athletes.", ar: "كلا ابنيّ يتدربان في السباحة وكرة القدم. النهج متعدد الرياضات جعلهم رياضيين متكاملين." },

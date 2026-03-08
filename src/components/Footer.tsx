@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Trophy, Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   const { t, lang, isRTL } = useLanguage();
@@ -27,12 +28,10 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <Trophy className="w-5 h-5 text-primary-foreground" />
-              </div>
+              <img src={logo} alt="Spirit Sports Academy" className="w-10 h-10 rounded-xl object-cover" />
               <div>
                 <span className="font-heading font-bold text-lg block leading-tight">
-                  {lang === "ar" ? "الأبطال" : "Champions"}
+                  {lang === "ar" ? "سبيريت" : "Spirit"}
                 </span>
                 <span className="text-[10px] font-subheading text-gold uppercase tracking-[0.2em]">
                   {lang === "ar" ? "أكاديمية رياضية" : "Sports Academy"}
@@ -94,8 +93,8 @@ const Footer = () => {
                 <span dir="ltr">+20 2 2345 6789</span>
               </div>
               <div className={`flex items-center gap-2 ${isRTL ? "flex-row-reverse" : ""}`}>
-                <Mail className="w-4 h-4 shrink-0 text-gold" />
-                <span>info@championsacademy.eg</span>
+              <Mail className="w-4 h-4 shrink-0 text-gold" />
+                <span>info@spiritsportsacademy.eg</span>
               </div>
             </div>
           </div>

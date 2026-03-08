@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Sun, Moon, Trophy, Languages } from "lucide-react";
+import { Menu, X, Sun, Moon, Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import logo from "@/assets/logo.jpg";
 
 const navKeys = [
   { key: "nav.home", href: "/" },
@@ -48,12 +49,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center group-hover:scale-110 transition-transform">
-              <Trophy className="w-5 h-5 text-primary-foreground" />
-            </div>
+            <img src={logo} alt="Spirit Sports Academy" className="w-10 h-10 rounded-xl object-cover group-hover:scale-110 transition-transform" />
             <div className={`hidden sm:block ${isRTL ? "text-right" : ""}`}>
               <span className="font-heading font-bold text-lg text-foreground leading-tight block">
-                {lang === "ar" ? "الأبطال" : "Champions"}
+                {lang === "ar" ? "سبيريت" : "Spirit"}
               </span>
               <span className="text-[10px] font-subheading text-gold uppercase tracking-[0.2em] leading-none">
                 {lang === "ar" ? "أكاديمية رياضية" : "Sports Academy"}
