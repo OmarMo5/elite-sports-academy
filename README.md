@@ -1,73 +1,187 @@
-# Welcome to your Lovable project
+# 🏆 Sports Academy Website & Dashboard
 
-## Project info
+A **premium, fully interactive sports academy platform** designed to deliver a modern and engaging experience for both visitors and academy members.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project represents a **multi-sport academy** with over **10 years of experience**, offering training programs, competitions, and a dedicated **member dashboard** to track performance and progress.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+### 🌐 Public Website
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* Modern, responsive design (Desktop / Tablet / Mobile)
+* Fully **bilingual support (Arabic & English)** with RTL/LTR layouts
+* Smooth animations & micro-interactions
+* Interactive UI with clean and professional UX
 
-Changes made via Lovable will be committed automatically to this repo.
+### 📄 Pages Included
 
-**Use your preferred IDE**
+* **Home**
+* **About**
+* **Programs**
+* **Branches**
+* **Membership**
+* **Events**
+* **Gallery**
+* **Contact**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏅 Sports Programs
 
-Follow these steps:
+The academy offers a wide range of sports:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* Swimming
+* Gymnastics
+* Football
+* Basketball
+* Kung Fu
+* Patinage
+* Art
+* Kickboxing
+* Parkour
+* Karate
+* Fitness
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Each program includes:
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Description
+* Age group & skill level
+* Training schedule
+* Coach information
+* Achievements & progress tracking
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🔐 Member Dashboard
+
+Exclusive access for subscribed members:
+
+* 📊 Performance tracking (per sport)
+* 📅 Attendance & participation records
+* 📈 Progress charts (line, bar, radial)
+* 🎯 Strengths & weaknesses analysis
+* 🔔 Notifications (classes, events, feedback)
+* 📄 Downloadable progress reports
+
+---
+
+## 🎨 UI/UX Highlights
+
+* Clean, modern, and professional design
+* 3D-inspired elements and interactive cards
+* Smooth hover effects and transitions
+* Light/Dark mode support
+* Fully scalable design system
+
+---
+
+## 🛠️ Tech Stack (Suggested)
+
+> You can adapt this based on your implementation
+
+* **Frontend:** HTML, CSS, JavaScript / React / Next.js
+* **Styling:** Tailwind CSS / SCSS
+* **Animations:** Framer Motion / GSAP
+* **Charts:** Chart.js / Recharts
+* **Backend (optional):** Laravel / Node.js
+* **Database (optional):** MySQL / MongoDB
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/OmarMo5/elite-sports-academy.git
+cd elite-sports-academy
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the project
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 4️⃣ Build for production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌍 Environment Variables
 
-## What technologies are used for this project?
+Create a `.env` file if needed:
 
-This project is built with:
+```env
+API_URL=your_api_url
+APP_NAME=SportsAcademy
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📁 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```
+/src
+  /components
+  /pages
+  /layouts
+  /hooks
+  /assets
+  /styles
+```
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🔄 Future Improvements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Online payment integration
+* Live session booking system
+* Notifications via email/SMS
+* Mobile app integration
+* Admin dashboard
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 💡 Project Goal
+
+To deliver a **high-end digital experience** for a sports academy that combines:
+
+* Professional design
+* Interactive experience
+* Real-time performance tracking
+* Scalable architecture
+
+---
+
+## 👨‍💻 Author
+
+Developed by **[Your Name]**
+
+---
+
+🔥 *This project is built to showcase a premium-level sports academy platform with modern UI/UX and real-world functionality.*
